@@ -1,0 +1,377 @@
+.home-page-container {
+  display: flex;
+}
+.home-first-division {
+  height: 100vh;
+  width: 10%;
+}
+.search-box {
+  height: 15%;
+  width: 100%;
+  background-color: #3b5afb;
+  border-bottom: solid 0.5px white;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  transition: background-color ease-in-out 0.5s;
+}
+.home-resume {
+  height: 15%;
+  width: 100%;
+  background-color: #3b5afb;
+  border-bottom: solid 0.5px white;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30p;
+  flex-direction: column;
+  transition: background-color ease-in-out 0.5s;
+}
+.post-box {
+  height: 15%;
+  width: 100%;
+  background-color: #3b5afb;
+  border-bottom: solid 0.5px white;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  transition: background-color ease-in-out 0.5s;
+}
+.post-box:hover {
+  background-color: #343e45;
+}
+.search-box:hover {
+  background-color: #343e45;
+}
+.home-resume:hover {
+  background-color: #343e45;
+}
+.icons-box {
+  height: 55%;
+  width: 100%;
+  background-color: #3b5afb;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+/*home second division code*/
+.home-second-division {
+  background-color: #0b0a08;
+
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+.home-second-division-header-1 {
+  height: 100px;
+  width: 90%;
+  background-color: #3b5afb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.home-second-division-header-2 {
+  height: 100px;
+  width: 10%;
+  background-color: #343e45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.port-picture {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+.port-pic {
+  width: 100%;
+  height: 100%;
+}
+.home-body {
+  width: 100%;
+  background-color: #070707;
+  height: 80vh;
+
+  justify-content: center;
+}
+
+.role {
+  width: 50%;
+  height: 100%;
+  background-color: #070707;
+
+  padding-left: 2%;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.my-pics {
+  width: 40%;
+  height: 100%;
+  background-color: green;
+}
+.body-container {
+  width: 100%;
+  height: 100%;
+  background-color: #070707;
+  display: flex;
+  justify-content: center;
+}
+.my-pics-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-about {
+  width: 84%;
+  height: 400px;
+  background-color: #3b5afb;
+
+  position: absolute;
+  top: 500px;
+}
+.home-second-division-header-2:hover {
+  background-color: orange;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.5s;
+}
+.resume-holder {
+  width: 100%;
+  height: 100%;
+  background-color: #555a5ebd;
+
+  position: fixed;
+  left: 9%;
+  z-index: 2000;
+
+  justify-content: center;
+}
+.image-container {
+  width: 100%;
+  height: 100%;
+  background-color: #555a5ebd;
+  position: relative;
+  left: 0px;
+}
+.resume-img {
+  width: 70%;
+  height: 100%;
+  object-fit: contain;
+}
+.resume-container {
+  display: flex;
+  color: white;
+}
+
+.home-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.abt {
+  height: 100%;
+  width: 20%;
+
+  padding-left: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abt-child {
+  height: 70%;
+  width: 100%;
+}
+.info-me {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.info-child {
+  width: 50%;
+  height: 70%;
+}
+@media (max-width: 900px) {
+  .bt-3 {
+    display: block !important;
+  }
+  .bt-4 {
+    display: block !important;
+  }
+  .about-2 {
+    display: flex;
+  }
+  .home-about-responsive {
+    display: flex;
+  }
+  .body-container {
+    width: 100%;
+    height: 1000px;
+    background-color: #070707;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .my-pics {
+    width: 100%;
+  }
+  .home-about {
+    width: 100%;
+
+    height: 400px;
+    background-color: #3b5afb;
+    flex-direction: column;
+
+    position: absolute;
+    top: 500px;
+    display: none;
+  }
+  .home-first-division {
+    display: none;
+  }
+  .body-responsive-header {
+    width: 100;
+
+    background-color: #555a5ebd;
+  }
+  .home-second-division-header-1 {
+    display: none;
+  }
+  .home-second-division-header-2 {
+    display: none;
+  }
+  .responsive-header {
+    width: 100%;
+    height: 50px;
+    background-color: #3b5afb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .responsive-menu-detail {
+    height: 50px;
+    width: 30px;
+    background-color: #3b5afb;
+    width: 80%;
+    display: flex;
+  }
+  .responsive-menu {
+    height: 50px;
+    width: 10%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5em;
+  }
+  .image-box {
+    width: 10%;
+    height: 100%;
+    background-color: white;
+  }
+
+  .resp-pics {
+    width: 100%;
+    height: 100%;
+  }
+  .profile-text {
+    width: 80%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+  }
+  .home-second-division {
+    height: 0px;
+  }
+  .large-resume {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: #343e45;
+    z-index: 4000;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+  }
+  .role {
+    width: 90%;
+
+    background-color: #070707;
+
+    padding-left: 2%;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+  }
+  .info-child {
+    height: 100%;
+    width: 80%;
+  }
+  .abt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .abt-child {
+    height: 100%;
+    width: auto;
+  }
+  .home-abt {
+    display: none;
+  }
+  .big-res-container {
+    width: 70%;
+    height: 100%;
+  }
+  .my-big-resume {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+  }
+  .home-first-division-1 {
+    display: flex !important;
+
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+  }
+  .icons-box-1 {
+    display: flex;
+  }
+}
+@media (min-width: 900px) {
+  .responsive-menu-detail {
+    display: none;
+  }
+  .responsive-menu {
+    display: none;
+  }
+  .large-resume {
+    display: none;
+  }
+}
+.facebook-icon {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
