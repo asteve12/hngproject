@@ -124,7 +124,6 @@
 .my-pics {
   width: 40%;
   height: 100%;
-  background-color: green;
 }
 .body-container {
   width: 100%;
@@ -276,7 +275,7 @@
   .responsive-menu {
     height: 50px;
     width: 10%;
-    background-color: orange;
+
     display: flex;
     justify-content: center;
     align-items: center;
